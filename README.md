@@ -22,9 +22,9 @@ OpenSCAD-schemas/
 ├── README.md
 ├── .gitignore
 └── designs/
-    └── my-first-design/
-        ├── model.scad          # Paste your OpenSCAD code here
-        └── exports/            # Save exported .stl / .3mf files here
+    └── parkside-battery-cover/
+        ├── model.scad          # OpenSCAD schema
+        └── exports/            # Exported .stl / .3mf files
 ```
 
 For every new design, create a new folder under `designs/`:
@@ -36,8 +36,8 @@ mkdir -p designs/<design-name>/exports
 
 ## 🚀 Workflow
 
-### 1. Paste Your OpenSCAD Schema
-Open [`designs/my-first-design/model.scad`](file:///Users/beholder/Projects/OpenSCAD-schemas/designs/my-first-design/model.scad) in your favorite editor or the OpenSCAD GUI, and paste your code.
+### 1. Edit Your OpenSCAD Schema
+Open [`designs/parkside-battery-cover/model.scad`](file:///Users/beholder/Projects/OpenSCAD-schemas/designs/parkside-battery-cover/model.scad) in your favorite editor or the OpenSCAD GUI.
 
 ### 2. Render & Export STL
 
@@ -45,11 +45,11 @@ Open [`designs/my-first-design/model.scad`](file:///Users/beholder/Projects/Open
 1. Press `F5` to Preview.
 2. Press `F6` to Render full geometry.
 3. Press `F7` (or `File > Export as STL...`).
-4. Save the file into the corresponding `exports/` directory (e.g. `exports/model.stl`).
+4. Save the file into [`designs/parkside-battery-cover/exports/`](file:///Users/beholder/Projects/OpenSCAD-schemas/designs/parkside-battery-cover/exports/) (e.g. `exports/parkside-battery-cover.stl`).
 
 #### Via Terminal (Optional CLI):
 ```bash
-openscad -o designs/my-first-design/exports/model.stl designs/my-first-design/model.scad
+openscad -o designs/parkside-battery-cover/exports/parkside-battery-cover.stl designs/parkside-battery-cover/model.scad
 ```
 
 ### 3. Slice and Print with Bambu Studio

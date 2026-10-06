@@ -1,3 +1,8 @@
+// =============================================================================
+// Project: Parkside Battery Cover
+// Target Printer: Bambu Lab A1 Mini (Max build volume: 180 x 180 x 180 mm)
+// =============================================================================
+
 // Battery Door Cover: 34mm (X) x 64mm (Y) x 4mm total recess
 $fn = 60;
 
