@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Optional: uncomment if you don't want to track large binary STL / 3MF exports
+# *.stl
+# *.3mf
